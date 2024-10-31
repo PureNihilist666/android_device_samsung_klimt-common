@@ -22,7 +22,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := fingerprint.universal5420
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_SRC_FILES := fingerprint.c
-LOCAL_SHARED_LIBRARIES := liblog libcutils
+LOCAL_SHARED_LIBRARIES := liblog libcutils libhardware
 LOCAL_MODULE_TAGS := optional
 LOCAL_VENDOR_MODULE := true
 
